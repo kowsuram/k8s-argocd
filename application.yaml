@@ -7,12 +7,12 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/mertcakmak2/Kubernetes-SpringBoot.git
+    repoURL: https://github.com/kowsuram/k8s-argocd.git
     targetRevision: HEAD
     path: dev
   destination:
     server: https://kubernetes.default.svc
-    namespace: springapp
+    namespace: spring-apps
   
   syncPolicy:
     syncOptions:

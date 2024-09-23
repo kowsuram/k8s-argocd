@@ -27,7 +27,7 @@ spec:
         app: springapp
     spec:
       containers:
-        - name: springapp
+        - name: spring-apps
           image: kowsuram/k8s-argocd:argocd
           imagePullPolicy: Always
           ports:
